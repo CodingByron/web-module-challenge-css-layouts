@@ -1,4 +1,12 @@
 /* Add CSS styling here */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: 1px red;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -70,4 +78,16 @@ nav.social {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+@media (max-width: 800px) {
+
+}
+
+@media (max-width: 500px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
